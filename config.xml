@@ -21,7 +21,7 @@
 -->
 <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "org.coenraets.pageslider"
+        id        = "org.ktsramesh.pageslider"
         versionCode="10" 
         version   = "1.0.0">
 
@@ -31,8 +31,8 @@
         An application demonstrating hardware accelerated page transitions. 
     </description>
 
-    <author href="https://coenraets.org" email="ccoenraets@gmail.com">
-        Christophe Coenraets
+    <author href="#" email="kts.ramesh@hotmail.com">
+        Ramesh Subramaniam
     </author>
 
 
@@ -49,7 +49,21 @@
     <preference name="MediaPlaybackRequiresUserAction" value="false" />
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="BackupWebStorage" value="cloud" />
-
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="default" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="disable-cursor" value="false" />
+    <preference name="android-minSdkVersion" value="7" />
+    <preference name="android-installLocation" value="auto" />
     <content src="index.html" />
 
     <plugins>
